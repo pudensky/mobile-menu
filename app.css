@@ -124,29 +124,29 @@ footer {
 }
 
 
-/*HAMBURGER MENU CSS*/
+/*HAMBURGER CSS*/
     .hamburgercontainer {
         display: inline-block;
         cursor: pointer;
         padding: 0;
         cursor: pointer;
     }
-    .bar1, .bar2, .bar3 {
+    .tab1, .tab2, .tab3 {
         width: 28px;
         height: 3px;
         background-color: white;
         margin: 4px 0;
         transition: 0.1s;
     }
-    .hamburger-close .bar1 {
+    .hamburger-close .tab1 {
         -webkit-transform: rotate(-45deg) translate(-9px, 6px);
         transform: rotate(-45deg) translate(-5px, 6px);
         background-color: white;
     }
-    .hamburger-close .bar2 {
+    .hamburger-close .tab2 {
         opacity: 0;
     }
-    .hamburger-close .bar3 {
+    .hamburger-close .tab3 {
         -webkit-transform: rotate(45deg) translate(-8px, -8px);
         transform: rotate(45deg) translate(-4px, -5px);
         background-color: white;
@@ -154,7 +154,7 @@ footer {
     .hamburger-opened {
         background-color: grey;
     }
-    .hamburger-menu-items {
+    .hamburger-items {
         list-style-type: none;
         position: absolute;
         width: 100%;

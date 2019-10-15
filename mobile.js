@@ -3,7 +3,7 @@ function hamburgerIconFunction(x) {
     x.classList.toggle("hamburger-close");
 }
 
-function hamburgerMenuFunction() {
+function hamburgerFunction() {
     var x = document.getElementById('hamburger-navbar-collapse');
     if (x.style.display === 'none') {
         x.style.display = 'block';
